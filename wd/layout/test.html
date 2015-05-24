@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    (function() {
+
+        //类库
+        var Class = function(parent) {
+            var klass = function() {
+                this.init.apply(this, arguments);
+            };
+
+            if(parent) {
+                var subClass = function() {
+                };
+                subClass.prototype = parent.prototype;
+                klass.prototype = new subClass;
+            }
+
+            klass.prototype.init = function() {};
+            klass.fn = klass.prototype;//换个短点的名字，方便一些
+            klass.fn.parent = klass;//在实例.parent上挂上他爹
+
+            //给实例添加扩展方法extend
+            klass.extend = function(obj) {
+                for(var i in obj) {
+                    klass[i] = obj[i];
+                }
+            };
+            //include(添加在类的prototype上)
+            klass.include = function(obj) {
+                for(var i in obj) {
+                    klass.fn[i] = obj[i];
+                }
+            };
+
+            klass._super = klass.__proto__;
+            return klass;
+        };
+
+        var Animal = new Class;
+        Animal.extend({
+            breathExtend: function() {
+                console.log('breathExtend');
+            }
+        });
+        Animal.include({
+            breathInclude: function() {
+                console.log('breathInclude');
+            }
+        });
+//        show(Animal);
+        show({});
+console.log({}.__proto__)
+        return;
+        var Cat = new Class(Animal);
+//    console.log('Cat')
+//    show(Cat);
+
+        var tomy = new Cat;
+//    show(tomy)
+
+
+        function show(obj) {
+            for(var i in obj) {
+                console.log(i);
+                console.log(obj[i]);
+            }
+        }
+
+//    Animal.include({
+//       breath: function() {
+//           console.log('breath');
+//       }
+//    });
+//
+//    var Cat = new Class(Animal);
+//
+//    var mimi = new Cat();
+//    mimi.breath();
+//    console.log(mimi);
+
+//    function T(test) {
+//        this.test = test;
+//    }
+//    T.prototype.x = 2;
+//
+//    T2 = function() {
+//
+//    }
+//    T2.prototype = new T;
+//
+//    var t = new T2;
+//
+//
+//    console.log(t);
+//
+//    console.log(t.__proto__);
+    })();
+
+
+</script>
+</body>
+</html>

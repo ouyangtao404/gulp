@@ -1,0 +1,116 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+body, button, input, select, textarea {
+    font: 12px/1.5 tahoma, arial, \5b8b\4f53;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+code, kbd, pre, samp {
+    font-family: courier new, courier, monospace;
+}
+small {
+    font-size: 12px;
+}
+ul, ol {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+legend {
+    color: #000;
+}
+fieldset, img {
+    border: 0;
+}
+button, input, select, textarea {
+    font-size: 100%;
+}
+button {
+    cursor: pointer
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+html {
+    zoom: expression((function(ele){ele.style.zoom = "1";document.execCommand("BackgroundImageCache",false,true);})(this));
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, s, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: transparent;
+}
+article, aside, details, summary, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+.hidden{
+	display: none;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    display: inline-block;
+}
+* html .clearfix {
+    height: 1%;
+}
+.clearfix {
+    display: block;
+}
+.has-trans {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+body {
+    font: 12px/1.5 "Lucida Grande", Helvetica, Arial, Verdana, Microsoft YaHei, sans-serif
+}
+body, legend {
+    color: #666
+}
+a:link, a:visited, .k2-highlight-blue {
+    /*color: #39c*/
+}
+a:hover, a:active, a.k2-av:hover, a.k2-av:active, .k2-av a:hover, .k2-av a:active, a.k2-highlight, .k2-highlight {
+    color: #f60
+}
+a.k2-av:visited, .k2-av a:visited {
+    color: #800080
+}
+.k2-lowlight {
+    color: #999
+}
+
+
