@@ -16,30 +16,43 @@
     <meta charset="utf-8">
     <title>layout参考</title>
     <meta name="description" content="填点儿关键词儿呗">
-    
+    <!--开发环境-->
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<!--<link rel="stylesheet" href="../publish/combineCss.css"/>-->
-<!--&lt;!&ndash;<script type="text/javascript" src="http://m.alicdn.com/yunosglobal/jquery-1-9-1.js" charset="utf-8"></script>&ndash;&gt;-->
-<!--<script type="text/javascript" src='../publish/jquery/jquery.js' charset="utf-8"></script>-->
+<link rel="stylesheet" href="../publish/combine.css"/>
+<script type="text/javascript" src='../publish/jquery/jquery-1.11.3.js' charset="utf-8"></script>
 <!--<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>-->
 <!--<script type="text/javascript" src='../publish/seajs/seajs.js' charset="utf-8"></script>-->
 <!--<script type="text/javascript" src="../distpublish/requires.js" charset="utf-8"></script>-->
-<!--<script type="text/javascript" src="../publish/combineJs.js" charset="utf-8"></script>-->
+<script type="text/javascript" src="../publish/combine.js" charset="utf-8"></script>
+
+<!--生产环境-->
+<!--<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon" />-->
+<!--<link rel="stylesheet" href="../publish/combine.css" charset="utf-8"/>-->
+<!--<script type="text/javascript" src='../publish/lib.js' charset="utf-8"></script>-->
+<!--<script type="text/javascript" src="../publish/combine.js" charset="utf-8"></script>-->
+
 
 </head>
 <body>
 <div class="allwrap">
-    <div class="header">
-    我是共同头部
+    <div class="p_header">
+    我是共同头部p_header
 </div>
     <div class="page">
         <div class="m_test">
-            我是m_test2模块内容
+            我是m_test2模块内容123456
+            <div class="p_banner">
+    我是banner内容(第一次引入)
+    <div class="p_banner_in">
+    banner的内部
+    我是banner内容(第2次引入)
+</div>
+</div>
         </div>
     </div>
-    <div class="footer">
-    我是尾部
+    <div class="p_footer">
+    我是共同头部p_footer
 </div>
 </div>
 </body>
