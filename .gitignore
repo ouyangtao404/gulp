@@ -8,6 +8,5 @@ wd/publish/combineCss*
 test_*
 .DS_Store
 *.iml
-Gruntfile.js
 npm-debug.log
 *.~$lock
