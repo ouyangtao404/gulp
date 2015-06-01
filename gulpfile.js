@@ -11,10 +11,11 @@ var test = require('gulp-test');
 
 var prefix = './wd';
 var paths = {
-    scripts:[prefix+ '/mods/unitaryConfig/assets/*.js', prefix+ '/mods/!unitaryConfig/assets/*.js'],
-    css: 'client/img/**/*'
+    js : [prefix+ '/mods/unitaryConfig/assets/*.js', prefix+ '/mods/{m_*,p_*}/assets/*.js'],
+    css: [prefix+ '/mods/unitaryConfig/assets/*.css', prefix+ '/mods/{m_*,p_*}/assets/*.css']
 };
 
+//只在共用模块发送变化的时候启动（p_）
 gulp.task('layout', function() {
     (function (path, cb){
         fs.readdir(path, function(err, files){
@@ -64,15 +65,9 @@ gulp.task('layout', function() {
     });
 });
 
-gulp.task('layout2', function() {
-    console.log(test);
-    gulp.src(prefix+ '/mods/m-*/*.html')
-        .pipe();
-});
-
 //js合并
 gulp.task('combineJs', function() {
-    gulp.src(path.scripts)
+    gulp.src(paths.js)
         .pipe(concat('combine.js'))
         .pipe(gulp.dest(prefix+ '/publish/'))
         .pipe(uglify())
@@ -82,7 +77,7 @@ gulp.task('combineJs', function() {
 
 //css合并
 gulp.task('combineCss', function() {
-    gulp.src(path.css)
+    gulp.src(paths.css)
         .pipe(concat('combine.css'))
         .pipe(gulp.dest(prefix+ '/publish/'))
         .pipe(minifyCss())
@@ -104,14 +99,40 @@ gulp.task('lib', function() {
 
 //触发监听
 gulp.task('default', function() {
+    gulp.run('layout');
+
+    gulp.run('combineJs');
     gulp.watch(prefix+ '/mods/**/*.js', function() {
         gulp.run('combineJs');
     });
+
+    gulp.run('combineCss');
     gulp.watch(prefix+ '/mods/**/*.css', function() {
         gulp.run('combineCss');
     });
-    gulp.watch(prefix+ '/mods/**/*.html', function() {
+
+    //监听m_模块
+    gulp.watch(prefix+ '/mods/m_*/*.html', function(e) {
+        var filePath = e.path.replace(/\\/g, '/');//把D:\XXX\YYY  转为  D:/XXX/YYY
+        var layoutFileName = filePath.split('/m_')[1].split('/')[0] + '.html';
+        gulp.src(filePath)
+            .pipe(contentIncluder({
+                includerReg:/<!\-\-include\s+"([^"]+)"\-\->/g
+            }))
+            .pipe(contentIncluder({
+                includerReg:/<!\-\-include\s+"([^"]+)"\-\->/g
+            }))
+            .pipe(contentIncluder({
+                includerReg:/<!\-\-include\s+"([^"]+)"\-\->/g
+            }))
+            .pipe(rename(layoutFileName))
+            .pipe(gulp.dest(prefix+ '/layout/'));
+    });
+
+    //监听p_模块
+    gulp.watch(prefix+ '/mods/p_*/*.html', function(e) {
         gulp.run('layout');
-    })
+    });
+
 });
 

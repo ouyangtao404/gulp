@@ -23,57 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gulpfile.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <file leaf-file-name="def.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wd/mods/m_todo/def.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="33" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0" vertical-offset="823" max-vertical-offset="1767">
-              <folding>
-                <element signature="e#557#1881#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="5" selection-start="97" selection-end="97" vertical-scroll-proportion="0.28405315" vertical-offset="0" max-vertical-offset="602">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/gulp-test/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="874">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="example.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wd/layout/example.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="741">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jicheng.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wd/layout/jicheng.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="2128">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="event.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wd/layout/event.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="11" selection-start="1193" selection-end="1193" vertical-scroll-proportion="-7.607143" vertical-offset="357" max-vertical-offset="1045">
+            <state line="8" column="48" selection-start="272" selection-end="272" vertical-scroll-proportion="0.26480836" vertical-offset="0" max-vertical-offset="574">
               <folding />
             </state>
           </provider>
@@ -89,22 +42,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/wd/mods/unitaryConfig/assets/common.js" />
+        <option value="$PROJECT_DIR$/wd/mods/p_banner_in2/def.html" />
+        <option value="$PROJECT_DIR$/wd/mods/p_banner_in/def.html" />
+        <option value="$PROJECT_DIR$/wd/mods/m_todo/assets/def.js" />
         <option value="$PROJECT_DIR$/wd/mods/m_test2/assets/def.js" />
-        <option value="$PROJECT_DIR$/wd/publish/combine.css" />
-        <option value="$PROJECT_DIR$/wd/publish/backbone/backbone-1.1.2.min.js" />
-        <option value="$PROJECT_DIR$/wd/publish/backbone/backbone-1.1.2.js" />
-        <option value="$PROJECT_DIR$/wd/publish/lib.js" />
-        <option value="$PROJECT_DIR$/wd/mods/p_header/def.html" />
-        <option value="$PROJECT_DIR$/wd/mods/p_footer/def.html" />
-        <option value="$PROJECT_DIR$/wd/mods/m_test2/def.html" />
-        <option value="$PROJECT_DIR$/wd/mods/m_test2/assets/def.css" />
-        <option value="$PROJECT_DIR$/wd/mods/unitaryConfig/headConfig.html" />
+        <option value="$PROJECT_DIR$/wd/mods/m_test/def.html" />
+        <option value="$PROJECT_DIR$/wd/mods/unitaryConfig/body_after.html" />
+        <option value="$PROJECT_DIR$/wd/mods/unitaryConfig/body_before.html" />
+        <option value="$PROJECT_DIR$/wd/mods/m_todo/def.html" />
+        <option value="$PROJECT_DIR$/wd/mods/m_example/assets/def.js" />
+        <option value="$PROJECT_DIR$/wd/mods/m_example/def.html" />
         <option value="$PROJECT_DIR$/wd/mods/unitaryConfig/assets/global.js" />
-        <option value="$PROJECT_DIR$/wd/layout/event.html" />
-        <option value="$PROJECT_DIR$/node_modules/gulp-test/index.js" />
+        <option value="$PROJECT_DIR$/wd/publish/combine.css" />
+        <option value="$PROJECT_DIR$/wd/publish/combine.min.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wd/mods/p_banner/assets/def.js" />
+        <option value="$PROJECT_DIR$/wd/publish/combine.js" />
       </list>
     </option>
   </component>
@@ -173,20 +126,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projectName" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gulp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="node_modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -205,11 +144,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\work\gulp\wd\layout" />
+      <recent name="D:\work\gulp\wd\mods\unitaryConfig" />
       <recent name="D:\work\gulp\wd\mods" />
+      <recent name="D:\work\gulp\wd\layout" />
       <recent name="D:\work\gulp\wd\publish\jquery" />
       <recent name="D:\work\gulp" />
-      <recent name="$PROJECT_DIR$/wd/layout" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/wd/mods/example/assets" />
@@ -259,7 +198,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -268,7 +207,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22893482" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20985691" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -303,120 +242,106 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wd/mods/m_test2/assets/def.css">
+    <entry file="file://$PROJECT_DIR$/wd/layout/test2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="1" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="228">
+        <state line="8" column="0" selection-start="242" selection-end="242" vertical-scroll-proportion="-0.6785714" vertical-offset="133" max-vertical-offset="1330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/layout/todo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.9529617" vertical-offset="547" max-vertical-offset="1121" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/layout/jicheng.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2128" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/layout/example.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.0191637" vertical-offset="585" max-vertical-offset="1330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/mods/p_banner_in/def.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/mods/m_example/def.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="202" selection-end="202" vertical-scroll-proportion="-3.392857" vertical-offset="0" max-vertical-offset="418" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/mods/m_example/assets/def.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="19" selection-end="43" vertical-scroll-proportion="0.03156146" vertical-offset="0" max-vertical-offset="602">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wd/publish/combine.min.css">
+    <entry file="file://$PROJECT_DIR$/wd/mods/unitaryConfig/assets/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="175" selection-start="174" selection-end="175" vertical-scroll-proportion="0.032928944" vertical-offset="0" max-vertical-offset="577" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/mods/m_test2/def.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="31" selection-start="412" selection-end="412" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="532">
+        <state line="2" column="18" selection-start="69" selection-end="69" vertical-scroll-proportion="0.06312292" vertical-offset="0" max-vertical-offset="602">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/publish/combine.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="246" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="2375">
-          <folding>
-            <marker date="1432640087437" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/mods/unitaryConfig/assets/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/mods/unitaryConfig/assets/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2356">
-          <folding>
-            <marker date="1432519616813" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wd/mods/unitaryConfig/assets/global.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7752">
+        <state line="13" column="2" selection-start="274" selection-end="277" vertical-scroll-proportion="0.410299" vertical-offset="0" max-vertical-offset="602">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wd/layout/test.html">
+    <entry file="file://$PROJECT_DIR$/wd/mods/p_banner/assets/def.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="384" selection-end="481" vertical-scroll-proportion="0.33101046" vertical-offset="0" max-vertical-offset="817">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/layout/test2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="16" selection-start="381" selection-end="381" vertical-scroll-proportion="0.4303136" vertical-offset="0" max-vertical-offset="1254">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/publish/jquery/jquery-1.11.3.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="42" selection-start="815" selection-end="815" vertical-scroll-proportion="0.29982668" vertical-offset="264" max-vertical-offset="196859">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/layout/example.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/layout/jicheng.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2128">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wd/layout/event.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="11" selection-start="1193" selection-end="1193" vertical-scroll-proportion="-7.607143" vertical-offset="357" max-vertical-offset="1045">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/gulp-test/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="367" selection-end="367" vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="874">
+        <state line="4" column="39" selection-start="109" selection-end="109" vertical-scroll-proportion="0.12624584" vertical-offset="0" max-vertical-offset="602">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="33" selection-start="2518" selection-end="2518" vertical-scroll-proportion="0.0" vertical-offset="823" max-vertical-offset="1767">
+        <state line="100" column="33" selection-start="3446" selection-end="3446" vertical-scroll-proportion="0.25249168" vertical-offset="855" max-vertical-offset="1843">
           <folding>
-            <element signature="e#557#1881#0" expanded="false" />
+            <element signature="e#612#2562#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/wd/publish/combine.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="5" selection-start="97" selection-end="97" vertical-scroll-proportion="0.28405315" vertical-offset="0" max-vertical-offset="602">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/publish/combine.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="602">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/publish/combine.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="481" selection-end="481" vertical-scroll-proportion="0.88372093" vertical-offset="0" max-vertical-offset="798">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/publish/combine.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2413">
+          <folding>
+            <marker date="1433151203439" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wd/mods/m_todo/def.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="48" selection-start="272" selection-end="272" vertical-scroll-proportion="0.26480836" vertical-offset="0" max-vertical-offset="574">
           <folding />
         </state>
       </provider>

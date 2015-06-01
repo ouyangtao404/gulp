@@ -1,5 +1,17 @@
 <!doctype html>
-<%mod_load('ie条件注释','unitaryConfig','IEselect.html')%>
+<!--[if lt IE 7]>
+<html class="no-js ie ie6 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js ie ie7 lte9 lte8 lte7"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js ie ie8 lte9 lte8"> <![endif]-->
+<!--[if IE 9]>
+<html class="no-js ie ie9 lte9"> <![endif]-->
+<!--[if gt IE 9]>
+<html class="no-js"><![endif]-->
+<!--[if !IE]><!-->
+<html>
+<!--<![endif]-->
 <head>
     <meta charset="utf-8">
     <title>layout参考</title>
@@ -24,13 +36,17 @@
 </head>
 <body>
 <div class="allwrap">
-    <!--<%mod_load('页头','unitaryConfig','header.html')%>-->
+    <div class="p_header">
+    我是共同头部p_header
+</div>
     <div class="page">
-        <div class="m_test">
-            我是m_test模块内容
+        <div class="m_todo">
+            todo
         </div>
     </div>
-    <!--<%mod_load('页脚','unitaryConfig','footer.html')%>-->
+    <div class="p_footer">
+    我是共同头部p_footer
+</div>
 </div>
 </body>
 </html>
